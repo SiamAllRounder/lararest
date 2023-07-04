@@ -54,3 +54,5 @@ C:\laragon\www\lararest(master -> origin)
 λ
 
 ```
+
+*** Laravel Rest API Bangla Tutorial Part I (Create Rest API from Scratch) ***
