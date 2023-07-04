@@ -28,3 +28,17 @@ C:\laragon\www\lararest(master -> origin)
 C:\laragon\www\lararest(master -> origin)
 λ
 ```
+
+## Make Another New Controller RegisterController inside Api folder
+```
+
+C:\laragon\www\lararest(master -> origin)
+λ php artisan make:controller Api\RegisterController
+
+   INFO  Controller [C:\laragon\www\lararest\app/Http/Controllers/Api/RegisterController.php] created successfully.
+
+
+C:\laragon\www\lararest(master -> origin)
+λ
+
+```
