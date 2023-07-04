@@ -15,3 +15,16 @@ C:\laragon\www\lararest(master -> origin)
 λ
 ```
 ## migrated after edit migration
+
+# Take A Controller Name Base Controller
+
+```
+C:\laragon\www\lararest(master -> origin)
+λ php artisan make:controller BaseController
+
+   INFO  Controller [C:\laragon\www\lararest\app/Http/Controllers/BaseController.php] created successfully.
+
+
+C:\laragon\www\lararest(master -> origin)
+λ
+```
