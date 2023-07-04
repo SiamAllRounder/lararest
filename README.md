@@ -42,3 +42,15 @@ C:\laragon\www\lararest(master -> origin)
 λ
 
 ```
+### take ProductController inside on api folder too
+```
+C:\laragon\www\lararest(master -> origin)
+λ php artisan make:controller Api\ProductController
+
+   INFO  Controller [C:\laragon\www\lararest\app/Http/Controllers/Api/ProductController.php] created successfully.
+
+
+C:\laragon\www\lararest(master -> origin)
+λ
+
+```
