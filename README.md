@@ -79,3 +79,5 @@ Route::group(['middleware' => 'auth:sanctum'], function () {
     Route::resource('products', ProductController::class);
 });
 ```
+
+### [Laravel Rest API Bangla Tutorial Part I  Create Rest API from Scratch 1073 s ](https://youtu.be/bK-9vuZoLqc?t=1073)
