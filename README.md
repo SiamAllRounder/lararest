@@ -63,3 +63,19 @@ C:\laragon\www\lararest(master -> origin)
 
 [How to Build a REST API With Laravel: PHP Full Course](https://www.youtube.com/watch?v=YGqCZjdgJJk)
 ##
+## comment out this code
+```
+/* Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+    return $request->user();
+}); */
+```
+and add and refix this codes on api underneeth comment outed code
+
+```
+Route::post('register', [RegisterController::class, 'register']);
+Route::post('login', [RegisterController::class, 'login']);
+
+Route::group(['middleware' => 'auth:sanctum'], function () {
+    Route::resource('products', ProductController::class);
+});
+```
